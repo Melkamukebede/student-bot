@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "grammy": "^1.30.0",
-    "@grammyjs/storage-free": "^1.3.0",
+    "@grammyjs/storage-free": "1.2.0",
     "@grammyjs/conversations": "^1.2.0"
   },
   "devDependencies": {
