@@ -1,6 +1,4 @@
-// src/index.ts - Cloudflare Worker entry point
 import { Bot, Context, session, SessionFlavor, webhookCallback } from "grammy";
-import { freeStorage } from "@grammyjs/storage-free";
 import { type Conversation, type ConversationFlavor, conversations, createConversation } from "@grammyjs/conversations";
 
 // ====== 1. Define Student Data Structure ======
@@ -125,9 +123,8 @@ export default {
       botInfo: JSON.parse(env.BOT_INFO || '{}')
     });
 
-    // Session setup (in-memory KV for Cloudflare)
+    // Session setup (in-memory storage - works with Cloudflare)
     bot.use(session({
-      storage: freeStorage<SessionData>(bot.token),
       initial: () => ({
         student: { completed: false }
       })
