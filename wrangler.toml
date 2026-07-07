@@ -4,4 +4,4 @@ compatibility_date = "2024-07-29"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-BOT_INFO = '{"id":8637447675,"is_bot":true,"first_name":"StudentBot","username":"student_reg_bot"}'
+BOT_INFO = '{"id":8637447675,"is_bot":true,"first_name":"Freshman Hub 2026","username":"BotFather"}'
