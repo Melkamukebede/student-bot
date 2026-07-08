@@ -1,7 +1,7 @@
 name = "student-bot"
 main = "src/index.ts"
-compatibility_date = "2024-07-29"
+compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-BOT_INFO = '{"id":8637447675,"is_bot":true,"first_name":"Freshman Hub 2026","username":"BotFather"}'
+BOT_INFO = '{"id":8637447675,"is_bot":true,"first_name":"Freshman Hub 2026","username":"Fmn2026"}'
