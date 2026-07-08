@@ -1,17 +1,14 @@
 {
-  "name": "student-bot",
+  "name": "test-bot",
   "version": "1.0.0",
-  "description": "Telegram bot for student registration with Cloudflare Workers",
-  "main": "src/index.ts",
+  "description": "Simple Telegram bot test",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "build": "tsc"
+    "dev": "wrangler dev"
   },
   "dependencies": {},
   "devDependencies": {
-    "wrangler": "^3.0.0",
-    "@cloudflare/workers-types": "^4.0.0",
-    "typescript": "^5.0.0"
+    "wrangler": "^3.0.0"
   }
 }
