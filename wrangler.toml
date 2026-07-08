@@ -3,6 +3,6 @@ main = "src/index.ts"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 node_compat = true
-
+no_bundle= true
 [vars]
 BOT_INFO = '{"id":8637447675,"is_bot":true,"first_name":"Freshman Hub 2026","username":"Frm2026_bot"}'
