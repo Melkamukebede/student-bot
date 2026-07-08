@@ -6,12 +6,9 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "build": "tsc",
-    "start": "wrangler dev"
+    "build": "tsc"
   },
-  "dependencies": {
-    "telegraf": "^4.16.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "wrangler": "^3.0.0",
     "@cloudflare/workers-types": "^4.0.0",
